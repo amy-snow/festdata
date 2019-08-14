@@ -1,0 +1,282 @@
+body, html {
+    height: 100%;
+}
+
+/* HEADER */
+
+.header {
+    height: 75px;
+    border-bottom: lightgrey 1px solid;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+    width: 100%;
+}
+
+.grd_box {
+    width:100%;
+    height:30px;
+    overflow:hidden;
+    white-space:nowrap;/*stop line breaks*/
+    font-size:0;/*remove spacing on children*/
+     
+    margin-top: 20px;
+}
+
+.menu {
+     position:relative;
+    height:100%;
+    width:25%;
+    display:inline-block;/*show inline*/
+    font-size:16px;/*set font size back*/
+    white-space:normal;/*return whitespace*/
+    /*older browsers*/
+    *display:inline;
+    zoom:1;
+}
+
+.space {
+    height: 75px;
+}
+
+.about {
+    background-color: lightgrey; 
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .about {
+   margin-top: 650px;;
+    }
+}
+
+/* HOMEPAGE */
+
+.home svg {
+    width:100%;
+    margin-top: 190px;
+}
+
+
+@font-face {
+    font-family: trash;
+    src: url(trash.ttf);
+}
+
+h5 {
+    font-family: trash;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 35px;
+}
+
+h6 {
+    font-family: trash;
+    font-size: 30px;
+}
+
+h7 {
+    font-family: trash;
+    font-size: 45px;
+}
+
+.comparelineups {
+    background-color: #ad88bc;
+   height:100%;
+}
+
+.festivalmap {
+    background-color: #EB84B4;
+ height: 100%;
+}
+
+.festivalsocial {
+    background-color: #F08274;
+   height:100%;
+}
+
+.festivallife {
+    background-color: #E76970;
+   height:100%;
+}
+
+.home {
+    position:absolute;
+    width:100%;
+    height:650px;
+    overflow:hidden;
+    white-space:nowrap;/*stop line breaks*/
+    font-size:0/*remove spacing on children*/
+}
+
+.box {
+    position:relative;
+    height:100%;
+    width:25%;
+    display:inline-block;/*show inline*/
+    font-size:16px;/*set font size back*/
+    vertical-align:top;/*align to top*/
+    white-space:normal;/*return whitespace*/
+    /*older browsers*/
+    *display:inline;
+    zoom:1;
+}
+
+.wrapper {
+       position:absolute;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    white-space:nowrap;/*stop line breaks*/
+    font-size:0/*remove spacing on children*/
+}
+
+.menu2 {
+        position:relative;
+    height:100%;
+    width:25%;
+    display:inline-block;/*show inline*/
+    font-size:16px;/*set font size back*/
+    vertical-align:top;/*align to top*/
+    white-space:normal;/*return whitespace*/
+    /*older browsers*/
+    *display:inline;
+    zoom:1;
+}
+
+.lineuptitle { 
+    padding:18px;
+}
+
+
+
+/* COMPARE LINEUPS */
+
+.lineups {
+    
+    margin-top: 10px;
+}
+
+.genrebuttons {
+    
+    margin-bottom: 10px;
+}
+
+.lineupresults div {
+    border-radius: px;
+    height: 300px;
+    border: 5px white solid;
+}
+
+.pastlineupresults {
+  
+    border: 5px white solid;
+}
+
+/* MAP */
+#map {
+  width:100vw;
+  height:100vh;
+    position: fixed;
+}
+
+.popup {
+    width: 250px;
+  
+}
+
+
+
+.popupbtn {
+    background-color: #ad88bc; 
+    color: white; 
+    border: 3px solid white; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.popupheadline {
+    font-size: 12px; 
+    margin-top: -5px; 
+    border-bottom: 1px solid lightgrey; 
+    padding-bottom: 5px;
+}
+
+.popupdate {
+    font-size: 16px; border-bottom: lightgrey 1px solid; padding-bottom: 10px;
+}
+
+.popupcar {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid lightgrey;
+}
+
+/* BUTTONS */
+
+button {
+    background-color: lightgrey;
+    border-radius: 7px;
+    border-left:white 5px solid;
+    border-right:white 5px solid;
+    border-bottom: white 2px solid;
+    border-top: white 2px solid;
+    color: white;
+    
+}
+
+.buttons {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: white;
+     border-bottom: lightgrey 1px solid;
+}
+
+@media only screen and (min-width: 992px) {
+    .buttons {
+        position: fixed;
+         z-index: 9999;
+    }
+}
+
+.btn-bkgd {
+    background-color: white;
+    color: lightgrey;
+}
+
+
+.september, .may {
+    background-color: #ad88bc;
+}
+
+
+.july  {
+    background-color: #F08274;
+}
+
+.june {
+    background-color: #EB84B4;
+}
+
+.august {
+    background-color: #E76970;
+}
+
+ol {
+    margin-left: -40px;
+    margin-top: -10px;
+}
+
+.glyphicon {
+    color: #ad88bc;
+}
+
+@media only screen and (min-width: 1200px) {
+    .relineup {
+       height: 100vh;
+    }
+}
+
